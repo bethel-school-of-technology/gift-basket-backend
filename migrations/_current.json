@@ -1,0 +1,91 @@
+{
+    "tables": {
+        "baskets": {
+            "tableName": "baskets",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "autoIncrement": true,
+                    "primaryKey": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "title": {
+                    "field": "title",
+                    "seqType": "Sequelize.STRING"
+                },
+                "description": {
+                    "field": "description",
+                    "seqType": "Sequelize.STRING"
+                },
+                "image": {
+                    "field": "image",
+                    "seqType": "Sequelize.STRING"
+                },
+                "price": {
+                    "field": "price",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "availableSizes": {
+                    "field": "availableSizes",
+                    "seqType": "Sequelize.STRING"
+                },
+                "createdAt": {
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        },
+        "products": {
+            "tableName": "products",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "autoIncrement": true,
+                    "primaryKey": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "title": {
+                    "field": "title",
+                    "seqType": "Sequelize.STRING"
+                },
+                "description": {
+                    "field": "description",
+                    "seqType": "Sequelize.STRING"
+                },
+                "image": {
+                    "field": "image",
+                    "seqType": "Sequelize.STRING"
+                },
+                "price": {
+                    "field": "price",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "quantity": {
+                    "field": "quantity",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "availableSizes": {
+                    "field": "availableSizes",
+                    "seqType": "Sequelize.STRING"
+                },
+                "createdAt": {
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        }
+    },
+    "revision": 1
+}
