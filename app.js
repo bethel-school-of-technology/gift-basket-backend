@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 //var models = require('./models');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://alt2:jJkyB13spuxMLIjE@cluster0.dgarq.mongodb.net/GiftBasket2?retryWrites=true&w=majority', 
+mongoose.connect('', 
      {useNewUrlParser: true},
      {useCreateIndex: true},
      {useUnifiedTopology: true}
