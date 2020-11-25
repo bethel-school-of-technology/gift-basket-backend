@@ -7,15 +7,15 @@ const registerValidation = (data) => {
           name: Joi.string()
                .min(6)
                .required(),
-     email: Joi.string()
+          email: Joi.string()
                .min(6)
                .required()
                .email(),
-     password: Joi.string()
+          password: Joi.string()
                .min(6)
                .required()
      };
-     return Joi.ValidationError(data, schema );
+     return new Joi.ValidationError(data, schema );
 };
 
 const loginValidation = (data) => {
