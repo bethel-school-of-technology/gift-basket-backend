@@ -27,3 +27,5 @@
      24. closeModal() this.props.clearOrder()
      25. render()
 
+making a commit to GitHub
+"writing this to make a valid commit"
