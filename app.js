@@ -21,6 +21,7 @@ mongoose.connect(process.env.DB_CONNECT,
 var usersRouter = require('./routes/users');
 var ordersRouter = require('./routes/orders');
 var authRouter = require('./routes/auth');
+var productsRouter = require('./routes/products');
 
 //jJkyB13spuxMLIjE
 
@@ -43,6 +44,7 @@ app.get("/", (req, res) => {
 app.use('/users', usersRouter);
 app.use('/orders',ordersRouter);
 app.use('/auth', authRouter);
+app.use('/products', productsRouter);
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
