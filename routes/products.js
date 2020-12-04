@@ -1,24 +1,23 @@
+//express handles our routes
 var express = require("express");
 var router = express.Router();
-var Product = require("../models/products")
-
+var Product = require("../models/Products");
 
 /* GET home page. */
-router.get('/', async function(req, res,){
-          try {
-            const products = await Product.find();
+router.get("/", async function (req, res) {
+  try {
+    const products = await Product.find();
 
-            res.status(200).json({
-              data: { products }
-            });
-          } catch (err) {
-            res.status(404).json({
-              status: 'fail',
-              message: err
-            });
-          }
-        });
-
+    res.status(200).json({
+      data: { products },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: "fail",
+      message: err,
+    });
+  }
+});
 
 router.get("/:id", async function (req, res) {
   try {

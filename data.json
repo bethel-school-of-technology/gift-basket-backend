@@ -1,0 +1,236 @@
+{
+    "products":[
+     
+   { "_id":"1",
+    "image": "/images/cheese-basket.jpg",
+    "title": "Cheese Basket",
+    "description": "Bring snacks and appetizers to new heights with this delicious quartet of Harry & David cheeses. We've included four of our customers' favorites—Garlic Jack, Colby Jack, Sicilian Jack, and Gouda. Mix and match these irresistible offerings with your favorite crackers, fruit, and meats, or use them to create a crowd-pleasing cheese board.",
+    "price": 80
+},
+{ "_id":"2",
+    "image": "/images/fruit-basket.jpg",
+    "title": "Fruit Basket",
+    "description": "Share delight with a gift basket filled with sweet Royal Verano® Pears and complementary savory snacks. Fruit and cheese make a rich and satisfying flavor combination, which is why we've included sharp white cheddar cheese and mixed nuts to accentuate the flavor of our pears. Seasonal apples and our classic pepper and onion relish round out the assortment.",
+    "price": 80
+},
+{ "_id":"3",
+    "image": "/images/snack-basket.jpg",
+    "title": "Snack Basket",
+    "description": "This vintage-inspired basket brimming with gourmet snacks makes an appropriate gift for any occasion. It includes dense, rich chocolate decadence cake from our bakery, perfect when topped with our strawberry preserves, and savory delights such as Napoli salami and Gouda and Pepper Jack Cheese.",
+    "price": 80
+},
+
+{ "_id":"4",
+    "image": "/images/wine-basket.jpg",
+    "title": "Wine Basket",
+    "description": "Three Robert Mondavi Private Selection wines and an abundance of food are packaged in this gourmet wine and food gift basket: rich cabernet sauvignon with blackberry and toasty oak flavors, classic chardonnay with notes of poached pears and pineapple, and supple merlot, chocolate coconut macaroons, Ghirardelli and Lindt milk and dark chocolate, cracked peppercorn crackers, smoked Gouda cheese spread, milk chocolate hazelnuts, walnut cookies and much more.",
+    "price": 80
+},
+{ "_id":"5",
+    "image": "/images/chocolate-Basket.jpg",
+    "title": "Chocolate Basket",
+    "description": "A beautiful chest covered in leather-like material with a hinged lid holds a decadent selection of our finest chocolate treats. Inside, you'll find our chocolate decadence cake, signature chocolate truffles, and more delicious chocolate goodies, all made in our Southern Oregon candy kitchen.",
+    "price": 80
+},
+{ "_id":"6",
+    "image": "/images/spa-basket.jpg",
+    "title": "Spa Basket",
+    "description": "This spa gift basket has everything needed to scrub away stress (and dead skin) to make even the most exhausting days a little more serene. ",
+    "price": 80
+},
+{
+      "_id": "7",
+      "title": "XS Basket with Ribbon",
+      "image": "https://i.pinimg.com/originals/73/ae/6f/73ae6f1de89607f698c37d3077985c09.jpg",
+      "description": "A smallest basket for small items",
+      "price": 5.0,
+      "availableSizes": ["XS"]
+    },
+    {
+      "_id": "8",
+      "title": "S Basket with handle",
+      "image": "https://image.made-in-china.com/202f0j00taoYuGUdoWrT/Decorative-Rattan-Wicker-Woven-Empty-Gift-Basket-with-Handle.jpg",
+      "description": "Small basket for a for putting more small items",
+      "price": 7.0,
+      "availableSizes": ["S"]
+    },
+    {
+      "_id": "9",
+      "title": "M Basket square",
+      "image": "https://www.thebasketcompany.com/images/products/zoom/1574076768-63383300.jpg",
+      "description": "medium size gift basket",
+      "price": 9.0,
+      "availableSizes": ["M"]
+    },
+    {
+      "_id": "10",
+      "title": "L Basket with Handles",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41u5Ou2o1TL.jpg",
+      "description": "large gift basket",
+      "price": 11.0,
+      "availableSizes": ["L"]
+    },
+    {
+      "_id": "11",
+      "title": "XL Gift Basket with Lid",
+      "image": "https://www.regencyhampers.com/images/viewfinder/EMP-EH034%20%20(2013)f.jpg",
+      "description": "Xlarge gift basket for larger items",
+      "price": 13.0,
+      "availableSizes": ["XL"]
+    },
+    {
+      "_id": "12",
+      "title": "XXL Gift Basket with Lid",
+      "image": "https://i.pinimg.com/originals/16/4e/df/164edf56ca0640eb4889e3f198f8315e.jpg",
+      "description": "Our largest gift basket for the largest items",
+      "price": 15.0,
+      "availableSizes": ["XXL"]
+    },
+    {
+      "_id": "13",
+      "title": "Brie",
+      "image": "https://images.heb.com/is/image/HEBGrocery/001546756",
+      "description": "delicious cheese",
+      "price": 4.5,
+      "availableSizes": ["300gr"]
+    },
+    {
+      "_id": "14",
+      "title": "Delicious aged cheese",
+      "image": "https://www.interempresas.net/FotosArtProductos/P93356.jpg",
+      "description": "Aged cheese",
+      "price": 4.5,
+      "availableSizes": ["300gr"]
+    },
+    {
+      "_id": "15",
+      "title": "Italian Peppered Cheese",
+      "image": "https://mixitalia.com/food-and-beverage/1397-thickbox_default/pecorino-with-whole-pepper-grains.jpg",
+      "description": "Peppered cheese",
+      "price": 5.0,
+      "availableSizes": ["400gr"]
+    },
+    {
+      "_id": "16",
+      "title": "Delicious Pepper Jack Cheese",
+      "image": "https://bjs.scene7.com/is/image/bjs/984461?$bjs-Zoom$",
+      "description": "Pepper Jack Cheese",
+      "price": 5.0,
+      "availableSizes": ["250gr"]
+    },
+    {
+      "_id": "17",
+      "title": "Cabernet Sauvignon Merlot recommended with cheese",
+      "image": "https://www.lcbo.com/content/dam/lcbo/products/340398.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "description": "Cabernet Sauvignon Merlot",
+      "price": 11.5,
+      "availableSizes": ["750ml"]
+    },
+    {
+      "_id": "18",
+      "title": "Merlot Cabernet Sauvignon paired for cheese",
+      "image": "https://www.winelab.co.nz/wp-content/uploads/2019/09/Church-Road-Merlot-Cabernet.jpg",
+      "description": "Merlot Cabernet Sauvignon",
+      "price": 15.0,
+      "availableSizes": ["750ml"]
+    },
+    {
+      "_id": "19",
+      "title": "Supreme garlic sausage",
+      "image": "https://www.markys.com/images/shop/product/7539/082020-saucisson-lail-garlic-sausage-075-lb--m30568-original.jpg",
+      "description": "Garlic sausage",
+      "price": 7.0,
+      "availableSizes": ["500gr"]
+    },
+    {
+      "_id": "20",
+      "title": "Gourmet German Sausage",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71XQQH9Mq1L._SX569_.jpg",
+      "description": "German Sausage",
+      "price": 20.0,
+      "availableSizes": ["750gr"]
+    },
+    {
+      "_id": "21",
+      "title": "Assorted Fresh Nuts",
+      "image": "https://nationaltoday.com/wp-content/uploads/2019/10/national-nut-day.jpg",
+      "description": "Fresh Nuts",
+      "price": 17.0,
+      "availableSizes": ["1kg"]
+    },
+    {
+      "_id": "22",
+      "title": "Gourmet Pretzels",
+      "image": "https://cdn11.bigcommerce.com/s-4e2wj6x/images/stencil/1280x1280/products/185/646/chocolate-covered-pretzels-01__59117.1473520225.jpg?c=2",
+      "description": "Chocolate-covered Pretzels",
+      "price": 20.0,
+      "availableSizes": ["750gr"]
+    },
+    {
+      "_id": "23",
+      "title": "Handmade Icelandic Chocolate",
+      "image": "https://icelandictimes.com/wp-content/uploads/2018/02/mosfellsbakari-HR-Luxus-askja-25-mola-opin.jpg",
+      "description": "Elegant Handmade Chocolate",
+      "price": 45.0,
+      "availableSizes": ["750gr"]
+    },
+    {
+      "_id": "24",
+      "title": "Gordiva Chocolate",
+      "image": "https://i.pinimg.com/originals/f5/05/08/f505088cde2e6044145f0108f96e1700.jpg",
+      "description": "Elegant Chocolate",
+      "price": 15.0,
+      "availableSizes": ["750gr"]
+    },
+    {
+      "_id": "25",
+      "title": "",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91IUovEXSDL._SL1500_.jpg",
+      "description": "Gourmet Coffee",
+      "price": 20.0,
+      "availableSizes": ["750gr"]
+    },
+    {
+      "_id": "26",
+      "title": "Assorted Helium Balloons",
+      "image": "https://www.minisocanada.com/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/b/0/b07krslwlz_1_.jpg",
+      "description": "Assorted Helium Balloons",
+      "price": 20.0,
+      "availableSizes": ["5","10","15"]
+    },
+    {
+      "_id": "27",
+      "title": "Assorted Flower Arrangements",
+      "image": "https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x1280/products/1035/2695/161724L__79837.1579558389.jpg?c=2",
+      "description": "Assorted floweres for all occasions",
+      "price": 50.0,
+      "availableSizes": ["XS", "S", "M", "L", "XL"]
+    },
+    {
+      "_id": "28",
+      "title": "Beautiful Cupcakes",
+      "image": "https://i.pinimg.com/originals/99/93/3f/99933f054600b579044515d5a0d1e840.jpg",
+      "description": "assorted beautiful cupcakes",
+      "price": 25.0,
+      "availableSizes": ["5","10"]
+    },
+    {
+      "_id": "29",
+      "title": "Luxury Slippers",
+      "image": "https://image.rakuten.co.jp/stay246/cabinet/supreme145/20596498.jpg",
+      "description": "Luxury Slippers from Japan",
+      "price": 45.0,
+      "availableSizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "_id": "30",
+      "title": "Luxury Robes",
+      "image": "https://www.hospitalityemporium.com/image/cache/catalog/Bathrobes/Bathrobe-Fleece-206-R-1000x1000.jpg",
+      "description": "Unisex Luxury Robes",
+      "price": 50.0,
+      "availableSizes": ["XS", "S", "M", "L", "XL"]
+    }
+
+]
+
+}
