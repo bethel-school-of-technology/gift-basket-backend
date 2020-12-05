@@ -1,25 +1,31 @@
 //Require Mongoose
 var mongoose = require('mongoose');
+const shortid = require('shortid');
 
 // Define schema
 var Schema = mongoose.Schema;
 
 var Order = new Schema({
-  customer: {
-    firstname: String,
-    lastname: String,
-    email: String
+  _id: {
+    type: String,
+    default: shortid.generate,
   },
-  product: String,
-  price: Number,
-  address: {
-    mailingOne: String,
-    mailingTwo: String,
-    city: String,
-    state: String,
-    zip: Number
+  email: String,
+  name: String,
+  address: String,
+  total: Number,
+  cartItems: [{
+    _id: String,
+    title: String,
+    price: Number,
+    count: Number, 
+  },
+  ],
+},
+  {
+    timestamps: true,
   }
-});
+);
 
 // Compile model from schema
 var OrderModel = mongoose.model('Order', Order );
